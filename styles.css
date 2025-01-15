@@ -1,0 +1,62 @@
+body{
+  background-color: #1E555C;
+}
+
+header{
+  display:flex;
+  width: 98vw; 
+  justify-content: space-between;
+  background-color: #F15152;
+}
+
+nav{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+main{
+  display: flex; 
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px;
+  height: 100%;
+  background-color: #EDB183;
+}
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  padding: 10px;
+}
+
+img{
+  width: 20vw;
+  height: 20vw;
+}
+
+#contactme{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-height: 650px)
+{
+ #contactme{
+  margin: 0%;
+  display:flex;
+  flex-direction:row;
+ }
+}
+
+@media (max-height: 618px)
+{
+  #portmain{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+  }
+}
